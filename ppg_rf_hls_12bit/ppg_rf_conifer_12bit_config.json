@@ -1,0 +1,26 @@
+{
+  "output_dir": "ppg_rf_hls_12bit",
+  "project_name": "ppg_rf_12bit",
+  "backend": "xilinxhls",
+  "xilinx_part": "xc7a100tcsg324-1",
+  "clock_period": 10,
+  "io_type": "io_serial",
+  "reuse_factor": 16,
+  "input_precision": "ap_fixed<12,5>",
+  "threshold_precision": "ap_fixed<12,5>",
+  "score_precision": "ap_fixed<18,8>",
+  "unroll": false,
+  "vitis": true,
+  "pipeline_interval": 2,
+  "model_config": "MODERATE",
+  "n_estimators": 30,
+  "max_depth": 7,
+  "n_features": 5,
+  "feature_names": [
+    "mean",
+    "std",
+    "max",
+    "peak_to_peak",
+    "rms"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.998165",
+   "Default View_TopLeft":"-465,33",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port ap_ctrl_0 -pg 1 -lvl 0 -x -20 -y 120 -defaultsOSRD
+preplace port port-id_ap_clk_0 -pg 1 -lvl 0 -x -20 -y 140 -defaultsOSRD
+preplace port port-id_ap_rst_0 -pg 1 -lvl 0 -x -20 -y 160 -defaultsOSRD
+preplace port port-id_score_0_ap_vld_0 -pg 1 -lvl 2 -x 340 -y 290 -defaultsOSRD
+preplace portBus score_0_0 -pg 1 -lvl 2 -x 340 -y 310 -defaultsOSRD
+preplace portBus x_0_0 -pg 1 -lvl 0 -x -20 -y 180 -defaultsOSRD
+preplace portBus x_1_0 -pg 1 -lvl 0 -x -20 -y 200 -defaultsOSRD
+preplace portBus x_10_0 -pg 1 -lvl 0 -x -20 -y 380 -defaultsOSRD
+preplace portBus x_11_0 -pg 1 -lvl 0 -x -20 -y 400 -defaultsOSRD
+preplace portBus x_12_0 -pg 1 -lvl 0 -x -20 -y 420 -defaultsOSRD
+preplace portBus x_13_0 -pg 1 -lvl 0 -x -20 -y 440 -defaultsOSRD
+preplace portBus x_14_0 -pg 1 -lvl 0 -x -20 -y 460 -defaultsOSRD
+preplace portBus x_2_0 -pg 1 -lvl 0 -x -20 -y 220 -defaultsOSRD
+preplace portBus x_3_0 -pg 1 -lvl 0 -x -20 -y 240 -defaultsOSRD
+preplace portBus x_4_0 -pg 1 -lvl 0 -x -20 -y 260 -defaultsOSRD
+preplace portBus x_5_0 -pg 1 -lvl 0 -x -20 -y 280 -defaultsOSRD
+preplace portBus x_6_0 -pg 1 -lvl 0 -x -20 -y 300 -defaultsOSRD
+preplace portBus x_7_0 -pg 1 -lvl 0 -x -20 -y 320 -defaultsOSRD
+preplace portBus x_8_0 -pg 1 -lvl 0 -x -20 -y 340 -defaultsOSRD
+preplace portBus x_9_0 -pg 1 -lvl 0 -x -20 -y 360 -defaultsOSRD
+preplace inst ppg_rf_project_0 -pg 1 -lvl 1 -x 160 -y 300 -defaultsOSRD
+preplace netloc ap_clk_0_1 1 0 1 N 140
+preplace netloc ap_rst_0_1 1 0 1 NJ 160
+preplace netloc ppg_rf_project_0_score_0 1 1 1 NJ 310
+preplace netloc ppg_rf_project_0_score_0_ap_vld 1 1 1 NJ 290
+preplace netloc x_0_0_1 1 0 1 NJ 180
+preplace netloc x_1_0_1 1 0 1 NJ 200
+preplace netloc x_10_0_1 1 0 1 NJ 380
+preplace netloc x_11_0_1 1 0 1 NJ 400
+preplace netloc x_12_0_1 1 0 1 NJ 420
+preplace netloc x_13_0_1 1 0 1 NJ 440
+preplace netloc x_14_0_1 1 0 1 NJ 460
+preplace netloc x_2_0_1 1 0 1 NJ 220
+preplace netloc x_3_0_1 1 0 1 NJ 240
+preplace netloc x_4_0_1 1 0 1 NJ 260
+preplace netloc x_5_0_1 1 0 1 NJ 280
+preplace netloc x_6_0_1 1 0 1 NJ 300
+preplace netloc x_7_0_1 1 0 1 NJ 320
+preplace netloc x_8_0_1 1 0 1 NJ 340
+preplace netloc x_9_0_1 1 0 1 NJ 360
+preplace netloc ap_ctrl_0_1 1 0 1 NJ 120
+levelinfo -pg 1 -20 160 340
+pagesize -pg 1 -db -bbox -sgen -180 0 510 540
+"
+}
+

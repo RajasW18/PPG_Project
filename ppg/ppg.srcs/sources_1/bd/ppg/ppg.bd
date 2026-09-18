@@ -1,0 +1,236 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xE8F0BF29AB6A0B0B",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../ppg.gen/sources_1/bd/ppg",
+      "name": "ppg",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.1"
+    },
+    "design_tree": {
+      "ppg_rf_infer_0": ""
+    },
+    "ports": {
+      "ap_rst_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "score_out_0": {
+        "type": "data",
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "x0_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "x1_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "x10_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "x11_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "x12_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "x13_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "x14_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "x2_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "x3_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "x4_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "x5_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "x6_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "x7_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "x8_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "x9_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      }
+    },
+    "components": {
+      "ppg_rf_infer_0": {
+        "vlnv": "xilinx.com:hls:ppg_rf_infer:1.0",
+        "ip_revision": "2114333760",
+        "xci_name": "ppg_ppg_rf_infer_0_0",
+        "xci_path": "ip\\ppg_ppg_rf_infer_0_0\\ppg_ppg_rf_infer_0_0.xci",
+        "inst_hier_path": "ppg_rf_infer_0"
+      }
+    },
+    "nets": {
+      "ap_rst_0_1": {
+        "ports": [
+          "ap_rst_0",
+          "ppg_rf_infer_0/ap_rst"
+        ]
+      },
+      "ppg_rf_infer_0_score_out": {
+        "ports": [
+          "ppg_rf_infer_0/score_out",
+          "score_out_0"
+        ]
+      },
+      "x0_0_1": {
+        "ports": [
+          "x0_0",
+          "ppg_rf_infer_0/x0"
+        ]
+      },
+      "x10_0_1": {
+        "ports": [
+          "x10_0",
+          "ppg_rf_infer_0/x10"
+        ]
+      },
+      "x11_0_1": {
+        "ports": [
+          "x11_0",
+          "ppg_rf_infer_0/x11"
+        ]
+      },
+      "x12_0_1": {
+        "ports": [
+          "x12_0",
+          "ppg_rf_infer_0/x12"
+        ]
+      },
+      "x13_0_1": {
+        "ports": [
+          "x13_0",
+          "ppg_rf_infer_0/x13"
+        ]
+      },
+      "x14_0_1": {
+        "ports": [
+          "x14_0",
+          "ppg_rf_infer_0/x14"
+        ]
+      },
+      "x1_0_1": {
+        "ports": [
+          "x1_0",
+          "ppg_rf_infer_0/x1"
+        ]
+      },
+      "x2_0_1": {
+        "ports": [
+          "x2_0",
+          "ppg_rf_infer_0/x2"
+        ]
+      },
+      "x3_0_1": {
+        "ports": [
+          "x3_0",
+          "ppg_rf_infer_0/x3"
+        ]
+      },
+      "x4_0_1": {
+        "ports": [
+          "x4_0",
+          "ppg_rf_infer_0/x4"
+        ]
+      },
+      "x5_0_1": {
+        "ports": [
+          "x5_0",
+          "ppg_rf_infer_0/x5"
+        ]
+      },
+      "x6_0_1": {
+        "ports": [
+          "x6_0",
+          "ppg_rf_infer_0/x6"
+        ]
+      },
+      "x7_0_1": {
+        "ports": [
+          "x7_0",
+          "ppg_rf_infer_0/x7"
+        ]
+      },
+      "x8_0_1": {
+        "ports": [
+          "x8_0",
+          "ppg_rf_infer_0/x8"
+        ]
+      },
+      "x9_0_1": {
+        "ports": [
+          "x9_0",
+          "ppg_rf_infer_0/x9"
+        ]
+      }
+    }
+  }
+}

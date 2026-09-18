@@ -1,0 +1,5 @@
+
+Family       : artix7
+Device       : xc7a100t
+Package      : -csg324
+Speed Grade  : -1

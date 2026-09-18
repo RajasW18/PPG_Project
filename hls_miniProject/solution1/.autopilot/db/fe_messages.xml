@@ -1,0 +1,15 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="" msg_id="207-3562" msg_severity="ERROR" msg_loc="ppg_rf_hls/firmware/BDT.cpp:13:30" msg_body="template argument for template type parameter must be a type">
+        <args/>
+    </msg>
+    <msg msg_groups="" msg_id="207-4531" msg_severity="INFO" msg_loc="ppg_rf_hls/firmware/BDT.h:128:44" msg_body="template parameter is declared here">
+        <args/>
+    </msg>
+    <msg msg_groups="" msg_id="207-1228" msg_severity="ERROR" msg_loc="ppg_rf_hls/firmware/BDT.cpp:18:9" msg_body="expected unqualified-id">
+        <args/>
+    </msg>
+    <msg msg_groups="" msg_id="207-1237" msg_severity="ERROR" msg_loc="ppg_rf_hls/firmware/BDT.cpp:30:1" msg_body="extraneous closing brace ('}')">
+        <args/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

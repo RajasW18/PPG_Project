@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="BDT.cpp" path="C:\Users\rajas\OneDrive\Desktop\ppg_rf_hls\firmware\BDT.cpp"/>
+    <originFiles name="ppg_rf_project.cpp" path="C:\Users\rajas\OneDrive\Desktop\ppg_rf_hls\firmware\ppg_rf_project.cpp"/>
+  </source>
+  <testbench/>
+</autopilotfilemapping:AutoPilotFileMapping>

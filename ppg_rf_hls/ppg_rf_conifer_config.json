@@ -1,0 +1,14 @@
+{
+  "output_dir": "ppg_rf_hls",
+  "project_name": "ppg_rf_project",
+  "backend": "xilinxhls",
+  "xilinx_part": "xc7z020clg400-1",
+  "clock_period": 5,
+  "io_type": "io_parallel",
+  "reuse_factor": 1,
+  "input_precision": "ap_fixed<16,6>",
+  "threshold_precision": "ap_fixed<16,6>",
+  "score_precision": "ap_fixed<16,6>",
+  "unroll": true,
+  "vitis": true
+}

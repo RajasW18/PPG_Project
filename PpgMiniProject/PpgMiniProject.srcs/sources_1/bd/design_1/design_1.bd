@@ -1,0 +1,288 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xF6D28B958DFFDAB6",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../PpgMiniProject.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.1"
+    },
+    "design_tree": {
+      "ppg_rf_project_0": ""
+    },
+    "interface_ports": {
+      "ap_ctrl_0": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:acc_handshake:1.0",
+        "vlnv": "xilinx.com:interface:acc_handshake_rtl:1.0",
+        "port_maps": {
+          "done": {
+            "physical_name": "ap_ctrl_0_done",
+            "direction": "O"
+          },
+          "idle": {
+            "physical_name": "ap_ctrl_0_idle",
+            "direction": "O"
+          },
+          "ready": {
+            "physical_name": "ap_ctrl_0_ready",
+            "direction": "O"
+          },
+          "start": {
+            "physical_name": "ap_ctrl_0_start",
+            "direction": "I"
+          }
+        }
+      }
+    },
+    "ports": {
+      "ap_clk_0": {
+        "type": "clk",
+        "direction": "I"
+      },
+      "ap_rst_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "score_0_0": {
+        "type": "data",
+        "direction": "O",
+        "left": "15",
+        "right": "0"
+      },
+      "score_0_ap_vld_0": {
+        "direction": "O"
+      },
+      "x_0_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "x_1_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "x_10_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "x_11_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "x_12_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "x_13_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "x_14_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "x_2_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "x_3_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "x_4_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "x_5_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "x_6_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "x_7_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "x_8_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "x_9_0": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      }
+    },
+    "components": {
+      "ppg_rf_project_0": {
+        "vlnv": "xilinx.com:hls:ppg_rf_project:1.0",
+        "ip_revision": "2114333334",
+        "xci_name": "design_1_ppg_rf_project_0_0",
+        "xci_path": "ip\\design_1_ppg_rf_project_0_0\\design_1_ppg_rf_project_0_0.xci",
+        "inst_hier_path": "ppg_rf_project_0"
+      }
+    },
+    "interface_nets": {
+      "ap_ctrl_0_1": {
+        "interface_ports": [
+          "ap_ctrl_0",
+          "ppg_rf_project_0/ap_ctrl"
+        ]
+      }
+    },
+    "nets": {
+      "ap_clk_0_1": {
+        "ports": [
+          "ap_clk_0",
+          "ppg_rf_project_0/ap_clk"
+        ]
+      },
+      "ap_rst_0_1": {
+        "ports": [
+          "ap_rst_0",
+          "ppg_rf_project_0/ap_rst"
+        ]
+      },
+      "ppg_rf_project_0_score_0": {
+        "ports": [
+          "ppg_rf_project_0/score_0",
+          "score_0_0"
+        ]
+      },
+      "ppg_rf_project_0_score_0_ap_vld": {
+        "ports": [
+          "ppg_rf_project_0/score_0_ap_vld",
+          "score_0_ap_vld_0"
+        ]
+      },
+      "x_0_0_1": {
+        "ports": [
+          "x_0_0",
+          "ppg_rf_project_0/x_0"
+        ]
+      },
+      "x_10_0_1": {
+        "ports": [
+          "x_10_0",
+          "ppg_rf_project_0/x_10"
+        ]
+      },
+      "x_11_0_1": {
+        "ports": [
+          "x_11_0",
+          "ppg_rf_project_0/x_11"
+        ]
+      },
+      "x_12_0_1": {
+        "ports": [
+          "x_12_0",
+          "ppg_rf_project_0/x_12"
+        ]
+      },
+      "x_13_0_1": {
+        "ports": [
+          "x_13_0",
+          "ppg_rf_project_0/x_13"
+        ]
+      },
+      "x_14_0_1": {
+        "ports": [
+          "x_14_0",
+          "ppg_rf_project_0/x_14"
+        ]
+      },
+      "x_1_0_1": {
+        "ports": [
+          "x_1_0",
+          "ppg_rf_project_0/x_1"
+        ]
+      },
+      "x_2_0_1": {
+        "ports": [
+          "x_2_0",
+          "ppg_rf_project_0/x_2"
+        ]
+      },
+      "x_3_0_1": {
+        "ports": [
+          "x_3_0",
+          "ppg_rf_project_0/x_3"
+        ]
+      },
+      "x_4_0_1": {
+        "ports": [
+          "x_4_0",
+          "ppg_rf_project_0/x_4"
+        ]
+      },
+      "x_5_0_1": {
+        "ports": [
+          "x_5_0",
+          "ppg_rf_project_0/x_5"
+        ]
+      },
+      "x_6_0_1": {
+        "ports": [
+          "x_6_0",
+          "ppg_rf_project_0/x_6"
+        ]
+      },
+      "x_7_0_1": {
+        "ports": [
+          "x_7_0",
+          "ppg_rf_project_0/x_7"
+        ]
+      },
+      "x_8_0_1": {
+        "ports": [
+          "x_8_0",
+          "ppg_rf_project_0/x_8"
+        ]
+      },
+      "x_9_0_1": {
+        "ports": [
+          "x_9_0",
+          "ppg_rf_project_0/x_9"
+        ]
+      }
+    }
+  }
+}

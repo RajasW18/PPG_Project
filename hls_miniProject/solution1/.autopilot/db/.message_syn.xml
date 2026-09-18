@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished File checks and directory preparation: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.224 seconds; current allocated memory: 205.152 MB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1312" tag="" content="Analyzing design file &apos;ppg_rf_hls/firmware/BDT.cpp&apos; ..." resolution=""/>
+	<Message severity="ERROR" prefix="[HLS 207-3562]" key="HLS 207-3562" tag="" content="template argument for template type parameter must be a type (ppg_rf_hls/firmware/BDT.cpp:13:30)" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 207-4531]" key="HLS 207-4531" tag="" content="template parameter is declared here (ppg_rf_hls/firmware/BDT.h:128:44)" resolution=""/>
+	<Message severity="ERROR" prefix="[HLS 207-1228]" key="HLS 207-1228" tag="" content="expected unqualified-id (ppg_rf_hls/firmware/BDT.cpp:18:9)" resolution=""/>
+	<Message severity="ERROR" prefix="[HLS 207-1237]" key="HLS 207-1237" tag="" content="extraneous closing brace (&apos;}&apos;) (ppg_rf_hls/firmware/BDT.cpp:30:1)" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-2161]" key="HLS 200-2161" tag="" content="Finished Command csynth_design Elapsed time: 00:00:09; Allocated memory: 1.062 MB." resolution=""/>
+</Messages>

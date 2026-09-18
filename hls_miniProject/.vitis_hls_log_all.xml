@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog>
+        <logs message="ERROR: [HLS 207-1237] extraneous closing brace ('}') (ppg_rf_hls/firmware/BDT.cpp:30:1)" projectName="hls_miniProject" solutionName="solution1" date="2025-11-21T23:39:48.804+0530"/>
+        <logs message="ERROR: [HLS 207-1228] expected unqualified-id (ppg_rf_hls/firmware/BDT.cpp:18:9)" projectName="hls_miniProject" solutionName="solution1" date="2025-11-21T23:39:48.727+0530"/>
+        <logs message="ERROR: [HLS 207-3562] template argument for template type parameter must be a type (ppg_rf_hls/firmware/BDT.cpp:13:30)" projectName="hls_miniProject" solutionName="solution1" date="2025-11-21T23:39:48.610+0530"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [HLS 200-2053] The vitis_hls executable is deprecated. Consider using vitis-run --mode hls --tcl&#xD;&#xA;Sourcing Tcl script 'C:/Users/rajas/OneDrive/Desktop/hls_miniProject/solution1/csynth.tcl'" projectName="hls_miniProject" solutionName="solution1" date="2025-11-21T23:39:37.007+0530" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

@@ -1,0 +1,13 @@
+ppg_rf_hls/firmware/BDT.cpp:13:30: error: template argument for template type parameter must be a type
+void BDT<n_trees, max_depth, n_classes,
+                             ^~~~~~~~~
+ppg_rf_hls/firmware/BDT.h:128:44: note: template parameter is declared here
+template<int n_trees, int n_classes, class input_t, class score_t, class threshold_t>
+                                           ^
+ppg_rf_hls/firmware/BDT.cpp:18:9: error: expected unqualified-id
+#pragma HLS inline
+        ^
+ppg_rf_hls/firmware/BDT.cpp:30:1: error: extraneous closing brace ('}')
+}
+^
+3 errors generated.

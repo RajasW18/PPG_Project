@@ -1,0 +1,63 @@
+<dict>
+  <key>main-file</key>
+  <string>C:/Users/rajas/OneDrive/Desktop/hls_miniProject/solution1/.autopilot/db/BDT.pp.0.cpp</string>
+  <key>diagnostics</key>
+  <array>
+    <dict>
+      <key>level</key>
+      <string>error</string>
+      <key>filename</key>
+      <string>ppg_rf_hls/firmware/BDT.cpp</string>
+      <key>line</key>
+      <integer>13</integer>
+      <key>column</key>
+      <integer>30</integer>
+      <key>message</key>
+      <string>template argument for template type parameter must be a type</string>
+      <key>ID</key>
+      <integer>3562</integer>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>note</string>
+      <key>filename</key>
+      <string>ppg_rf_hls/firmware/BDT.h</string>
+      <key>line</key>
+      <integer>128</integer>
+      <key>column</key>
+      <integer>44</integer>
+      <key>message</key>
+      <string>template parameter is declared here</string>
+      <key>ID</key>
+      <integer>4531</integer>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>error</string>
+      <key>filename</key>
+      <string>ppg_rf_hls/firmware/BDT.cpp</string>
+      <key>line</key>
+      <integer>18</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>expected unqualified-id</string>
+      <key>ID</key>
+      <integer>1228</integer>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>error</string>
+      <key>filename</key>
+      <string>ppg_rf_hls/firmware/BDT.cpp</string>
+      <key>line</key>
+      <integer>30</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>extraneous closing brace (&apos;}&apos;)</string>
+      <key>ID</key>
+      <integer>1237</integer>
+    </dict>
+  </array>
+</dict>
